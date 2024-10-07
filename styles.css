@@ -6,13 +6,17 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
@@ -41,6 +45,13 @@ main {
 }
 
 h1 {
+  color: aqua;
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+
+img {
+  width: 200px;
+  height: auto;
+} 
